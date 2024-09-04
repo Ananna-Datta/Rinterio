@@ -27,16 +27,16 @@
       }
     </style>
   </head>
-  <body class="bg-[#F5F5F5]">
-    <header class="max-w-7xl mx-auto manrope-font">
+  <body class="bg-gradient-to-b from-[#F5F5F5] to-[#ffffff]">
+    <header class="max-w-7xl mx-auto manrope-font ">
       <nav>
         <div class="navbar">
           <div class="navbar-start">
 
             <a class="text-3xl font-extrabold flex"
-              ><div class="bg-[#abef5f] rounded-lg">
-                <i class="fa-solid fa-arrow-up rotate-45"></i>
-              </div>
+              >
+                <i class="fa-solid fa-arrow-right -rotate-45 px-2 py-1 bg-[#abef5f] rounded-full text-base text-black mr-2"></i>
+              
               Rinterio</a
             >
           </div>
@@ -86,14 +86,17 @@
                 <div class="bg-[#f8fafc] rounded-3xl p-2 ">
                   <i class="fa-solid fa-cart-shopping"></i>
                 </div>
-                <a class="btn bg-[#abef5f] rounded-3xl ">Book Consult</a>
+                
+                <a class="btn bg-[#abef5f] rounded-3xl ">Book Consult
+                  <i class="fa-solid fa-arrow-right -rotate-45 px-2 py-1 bg-[#000000] rounded-full text-base text-[#ffffff]"></i>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </nav>
       <!-- banner section -->
-      <section class="max-w-9xl mx-auto flex flex-col justify-center items-center border-dotted border-2 p-4 ">
+      <section class="max-w-9xl mx-auto flex flex-col justify-center items-center p-4 ">
         <div class="items-center ">
           <img class="max-w-full" src="images/banner.png" alt=""/>
         </div>
@@ -106,15 +109,17 @@
             large windows that flood the space with natural light.
           </p>
           <br>
-          <a class="btn bg-[#abef5f] rounded-3xl te">Book Consult</a>
+          <a class="btn bg-[#d4f6ae] rounded-3xl ">View Details
+            <i class="fa-solid fa-arrow-right -rotate-45 px-2 py-1 bg-[#ABEF5F] rounded-full text-base text-[#000000]"></i>
+          </a>
           
         </div>
       </section>
       
     </header>
-    <main class=" bg-[#F4F4F4] max-w-7xl mx-auto manrope-font">
+    <main class=" bg-[#F4F4F4] manrope-font">
       <!-- About us section -->
-      <section>
+      <section class="max-w-7xl mx-auto">
         <div class="about-us p-9">
           <img class="hidden lg:block" src="images/Vector.png" alt="">
           <div class="flex flex-col gap-8 md:flex-row">
@@ -160,7 +165,7 @@
         </div>
       </section>
       <!-- Works Section -->
-      <section>
+      <section class="max-w-7xl mx-auto">
         <div class="align-center text-center">
           <p class="bg-white rounded-3xl btn text-center align-center">
             <i class="fa-solid fa-arrow-right"></i>
@@ -224,7 +229,78 @@
         </div>
           
       </section>
+      <br><br>
+      <!-- Contact us section -->
+       <section class="bg-[url('images/bg.jpg')]">
+        <div class="max-w-4xl mx-auto"><br>
+          <div>
+            <div class="align-center text-center">
+              <p class="bg-white rounded-3xl btn text-center align-center">
+                <i class="fa-solid fa-arrow-right"></i>
+                Let’s Connect
+              </p><br>
+              <h1 class="manrope-font text-2xl font-extrabold lg:text-5xl">Let’s Discuss Next Project</h1><br>
+              <p class="manrope-font text-sm font-medium text-center md:text-base">
+                The barn house captivates with its blend of rustic charm and modern
+                sophistication, featuring weathered wood, sleek metal accents.
+              </p><br>
+            </div>
+          </div>
+          <div class="p-3">
+            <div class="flex flex-col md:flex-row gap-2">
+              <label class="input mt-3 lg:w-1/2 rounded-full input-bordered flex items-center gap-2">
+                <input type="text" class="grow" placeholder="First Name*" />
+              </label>
+              <label class="input mt-3 lg:w-1/2 rounded-full input-bordered flex items-center gap-2">
+                <input type="text" class="grow" placeholder="Last Name*" />
+              </label>
+            </div>
+            <div class="flex flex-col md:flex-row gap-2">
+              <label class="input mt-3 lg:w-1/2 rounded-full input-bordered flex items-center gap-2">
+                <input type="text" class="grow" placeholder="Phone Number*" />
+              </label>
+              <label class="input mt-3 lg:w-1/2 rounded-full input-bordered flex items-center gap-2">
+                <input type="text" class="grow" placeholder="Email Number*" />
+              </label>
+            </div>
+            <label class="input h-44 mt-3  input-bordered flex flex-start gap-2">
+              <input type="text"  class="grow " placeholder="Write your message here" />
+            </label> 
+            <a class="btn mt-3 bg-[#abef5f] rounded-3xl w-full">Send Mail
+
+              <i class="fa-solid fa-arrow-right -rotate-45 px-2 py-1 bg-[#050505] rounded-full text-base text-[#ffffff]"></i>
+            </a>
+            
+          </div>
+        </div>
+       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <footer class="footer footer-center bg-black text-base-content rounded p-10">
+        <a class="text-3xl font-extrabold flex text-[#ffffff]"
+              >
+                <i class="fa-solid fa-arrow-right -rotate-45 px-2 py-1 bg-[#abef5f] rounded-full text-base text-black mr-2"></i>
+              
+              Rinterio</a
+            >
+            <p class="manrope-font text-sm font-medium text-center md:text-base">
+              The barn house captivates with its blend of rustic charm and modern
+              sophistication,<br> featuring weathered wood, sleek metal accents
+        <nav class="grid grid-flow-col gap-4">
+          <ul class="menu menu-horizontal px-1 text-[#fcfcfc] flex flex-col gap-8 md:flex-row">
+            <li><a>Home</a></li>
+            <li><a>Servics</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </nav>
+        <div classs="flex">
+          <a class="btn bg-[#abef5f] rounded-3xl ">Book Consult
+            <i class="fa-solid fa-arrow-right -rotate-45 px-2 py-1 bg-[#000000] rounded-full text-base text-[#ffffff]"></i>
+          </a>
+        </div>
+      </footer>
+    </footer>
   </body>
 </html>
